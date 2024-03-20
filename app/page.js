@@ -1,5 +1,6 @@
 import HeaderText from "@/components/HeaderText";
 import Navbar from "@/components/Navbar";
+import { deleteContact } from "@/lib/action";
 import { getContacts } from "@/lib/data";
 import Link from "next/link";
 import React from "react";
@@ -55,8 +56,8 @@ const HomePage = async () => {
                     <Link href={`contact/${contact.id}`}>
                       <FiEdit />
                     </Link>
-                    <form>
-                      <input hidden name="id" defaultValue={contact.id}></input>
+                    <form action={deleteContact}>
+                      <input hidden name="id" Value={contact.id}></input>
                       <button className="mt-1.5" type="submit">
                         <FiTrash style={{ color: "red" }} />
                       </button>
