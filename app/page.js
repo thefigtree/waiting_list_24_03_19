@@ -21,16 +21,16 @@ const HomePage = async () => {
             <thead>
               <tr>
                 <th className="px-4 py-3 title-font text-center tracking-wider font-medium text-gray-700 text-sm bg-gray-100 rounded-t1 rounded-b1">
-                  FirstName
+                  이름
                 </th>
                 <th className="px-4 py-3 title-font text-center tracking-wider font-medium text-gray-700 text-sm bg-gray-100">
-                  LastName
+                  성
                 </th>
                 <th className="px-4 py-3 title-font text-center tracking-wider font-medium text-gray-700 text-sm bg-gray-100">
-                  Email
+                  이메일
                 </th>
                 <th className="px-4 py-3 title-font text-center tracking-wider font-medium text-gray-700 text-sm bg-gray-100">
-                  Contact #
+                  연락처
                 </th>
                 <th className="px-4 py-3 title-font text-center tracking-wider font-medium text-gray-700 text-sm bg-gray-100">
                   Action

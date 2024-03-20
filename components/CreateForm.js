@@ -12,22 +12,22 @@ const CreateForm = () => {
       >
         <div className="flex mb-4">
           <div className="w-1/2 pr-2">
-            <label className="tedt-gray-700">FirstName</label>
+            <label className="tedt-gray-700">이름</label>
             <Input type="text" placeholder="FirstName" name="firstName"></Input>
           </div>
           <div className="w-1/2 pr-2">
-            <label className="tedt-gray-700">LastName</label>
+            <label className="tedt-gray-700">성</label>
             <Input type="text" placeholder="LastName" name="lastName"></Input>
           </div>
         </div>
 
         <div className="flex mb-4">
           <div className="w-1/2 pr-2">
-            <label className="tedt-gray-700">Email</label>
+            <label className="tedt-gray-700">이메일</label>
             <Input type="text" placeholder="Email" name="email"></Input>
           </div>
           <div className="w-1/2 pr-2">
-            <label className="tedt-gray-700">Contact Number</label>
+            <label className="tedt-gray-700">연락처</label>
             <Input
               type="number"
               placeholder="Contact Number"

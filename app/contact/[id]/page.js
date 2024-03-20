@@ -25,7 +25,7 @@ const SingleContact = async ({ params }) => {
           <div className="flex mb-4">
             <div className="w-1/2 pr-2">
               <input type="text" name="id" hidden value={contact.id}></input>
-              <label className="text-gray-700">FirstName</label>
+              <label className="text-gray-700">이름</label>
               <Input
                 type="text"
                 placeholder={contact.firstName}
@@ -33,7 +33,7 @@ const SingleContact = async ({ params }) => {
               ></Input>
             </div>
             <div className="w-1/2 pr-2">
-              <label className="tedt-gray-700">LastName</label>
+              <label className="tedt-gray-700">성</label>
               <Input
                 type="text"
                 placeholder={contact.lastName}
@@ -44,7 +44,7 @@ const SingleContact = async ({ params }) => {
 
           <div className="flex mb-4">
             <div className="w-1/2 pr-2">
-              <label className="tedt-gray-700">Email</label>
+              <label className="tedt-gray-700">이메일</label>
               <Input
                 type="text"
                 placeholder={contact.email}
@@ -52,7 +52,7 @@ const SingleContact = async ({ params }) => {
               ></Input>
             </div>
             <div className="w-1/2 pr-2">
-              <label className="tedt-gray-700">Contact Number</label>
+              <label className="tedt-gray-700">연락처</label>
               <Input
                 type="number"
                 placeholder={contact.phone}
